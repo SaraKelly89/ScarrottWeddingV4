@@ -95,18 +95,14 @@ h2 {font-family: 'Josefin Slab', sans-serif;
   padding: 1%;
 }
 
-h3 {font-family: 'Amatic SC', cursive;
-    font-size: 2em;
-    padding: 1%;}
+h3 {font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1em;
+  text-align: center;
+}
 
 h4 {font-family: 'Gloria Hallelujah', cursive;
   font-size: 1em;
   text-align: center;
-}
-.smallHeading h4{
-  font-family: 'Gloria Hallelujah', cursive;
-    font-size: 12px;
-    text-align: center;
 }
 
 h5 {font-family: 'Indie Flower', cursive;
@@ -114,8 +110,11 @@ h5 {font-family: 'Indie Flower', cursive;
   }
 
 p {font-family: 'Indie Flower', cursive;
-  font-size: 13.5px;
+  font-size: 13.6px;
   font-weight: lighter;}
+
+.boldText p{font-family: 'Indie Flower', cursive;
+  font-size: 13.6px;}
 
 
 /*-------------hearder section styles----------*/
