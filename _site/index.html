@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lance & Lea Wedding by the Sea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/styles/owl.carousel.min.css">
+<link rel="stylesheet" href="/styles/owl.theme.default.css">
+  <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Indie+Flower|Gloria+Hallelujah" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <script src="https://use.fontawesome.com/d185550c4b.js"> </script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  <script>
+//auto expand textarea
+function adjust_textarea(h) {
+    h.style.height = "20px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script>
+
+  <style>
+  .parallax{
+  /*background image*/
+  background-image: url('/Images/beach3.jpg');
+  /*height*/
+  min-height: 500px;
+
+  /*parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  }
+  </style>
+
+</head>
+
+<body>
+
+  <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Mar 9, 2019 00:00:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+      // Output the result in an element with id="timer"
+      document.getElementById("timer").innerHTML = days + " days " + hours + " hours "
+      + minutes + " minutes " + "\n" + " till we say \"I do\"";
+
+      // If the count down is over, write some text
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "Happily Married on the 9th of March 2019";
+      }
+  }, 1000);
+  </script>
+
+
+  <!--Header Navigation-->
+  <header id="home">
+    <div>
+    <nav class="grid-middle">
+      <div class="col-7 margin-3 mob-hide">
+        <a href="index.html"><h1>  Lance & Lea's Wedding by the Sea </h1></a>
+      </div>
+      <div class="col-6 margin-1 mob-show smallHeading">
+        <a href="index.html"><h1>  Lance & Lea's <br> Wedding by the Sea </h1></a>
+      </div>
+      <!-- gallery and RSVP Hidden till jan--
+      <div class="NavRight col-5 ">
+        <a href="photos.html"> Gallery </a>
+          <a href="index.html#RSVP"> RSVP </a>
+      </div>   -->
+      <div class="NavRight col-5 smallHeading ">
+        <h1> -Save the Date- </h1>
+      </div>
+    </nav>
+  </div>
+
+      <!-- Hamburger Menu -- hidden till after Invites sent out
+      <div class="mob-show">
+        <div class="burger-button">
+            <span class="burger-top"></span>
+            <span class="burger-middle"></span>
+            <span class="burger-bottom"></span>
+          </div>
+         <div class="burger-menu">
+          <nav>
+            <ul>
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="photos.html">Gallery</a></li>
+              <li><a href="index.html#RSVP">RSVP</a></li>
+            </ul>
+          </nav>
+        </div>
+    </div>      -->
+
+  </header>
+
+<div class="parallax" </div>
+<!--
+    <div class="grid">
+    <!-- page heading displayed on small screens --
+    <h1 class="col-10 mob-show"> Lance & Lea's Wedding by the Sea </h1>
+  </div> -->
+
+  <!--Section 1 background image-->
+  <section class="grid">
+    <div class="col-6 mob-hide">
+    <p class="bgColored padded-2 rounded"> Go into a room to decide you didn't want to be in there anyway reward the chosen human with a slow blink throw down all the stuff in the kitchen. munch on tasty moths and sniff all the things if it fits, i sits. stretch tongue and leave it slightly out, to do with my owner today, cats secretly make all the worlds muffins. Wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again shake treat bag, or scamper, and licks your face or instantly break out into full speed gallop across the house at 4 in the morning.
+      <br> If you would like to attend Lance & Lea's Wedding by the Sea please RSVP no latter than 01/02/19
+     </p>
+  </div>
+    <div class="col-6_xs-12">
+      <div class="polaroid smallHeading">
+        <img src="/Images/LLdancing1.jpeg">
+        <h4 id="timer"> </h4>
+      </div>
+    </div>
+    <!-- description shown after the pic when on small screen-->
+    <div class="col-12-center mob-show">
+    <p class="bgColored padded-2 rounded"> Go into a room to decide you didn't want to be in there anyway reward the chosen human with a slow blink throw down all the stuff in the kitchen. munch on tasty moths and sniff all the things if it fits, i sits. stretch tongue and leave it slightly out, to do with my owner today, cats secretly make all the worlds muffins. Wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again shake treat bag, or scamper, and licks your face or instantly break out into full speed gallop across the house at 4 in the morning.
+      <br> If you would like to attend Lance & Lea's Wedding by the Sea please RSVP no latter than 01/02/19
+     </p>
+  </div>
+  </section>
+
+  <!--Section The Wedding date-->
+<!--
+<section>
+  <div>
+    <h1 > </h1>
+  </div>
+</section> -->
+
+
+<!--Section  about us -->
+<section class="grid">
+  <h1 class="col-12-center"> About Us </h1>
+  <div class="col-6_xs-10 paddedTB">
+    <div class="polaroid smallHeading">
+      <img src="/Images/lance3.jpg">
+      <h4>Lance Scarrott - Groom </h4>
+    </div>
+  </div>
+
+<div id="instructions" class="paper col-5_xs-11">
+  <h5> Recipe for a Lance </h5> <br>
+  <p> 2 cups of pure energy <br>
+  250g of love <br>
+  1 large cute smile <br>
+  2 teaspoons cartwheels <br>
+  a dash of pragmatism <br> <br>
+  - mix energy and love in a large bowl until smooth <br> <br>
+  - fold in other ingredients until well combined <br> <br>
+  - take mixture and shape into a well formed woman with a sexy arse <br> <br>
+  - cook in oven, no need to take out as she will jump out when ready with a pose and tell "TADA!" <br> <br>
+  - best served with a pokemon cosplay <br> <br>
+</p>
+</div>​
+
+<div id="instructions" class="paper col-5 mob-hide margin-3">
+  <h5> Recipe for a Lea </h5> <br>
+  <p> 2 cups of pure energy <br>
+  250g of love <br>
+  1 large cute smile <br>
+  2 teaspoons cartwheels <br>
+  a dash of pragmatism <br> <br>
+  - mix energy and love in a large bowl until smooth <br> <br>
+  - fold in other ingredients until well combined <br> <br>
+  - take mixture and shape into a well formed woman with a sexy arse <br> <br>
+  - cook in oven, no need to take out as she will jump out when ready with a pose and tell "TADA!" <br> <br>
+  - best served with a pokemon cosplay <br> <br>
+</p>
+</div>​
+
+  <div class="col-6_xs-10 paddedTB">
+    <div class="polaroid smallHeading">
+      <img src="/Images/lea2.jpg">
+      <h4>Lea Pobiega - Bride </h4>
+    </div>
+  </div>
+
+<!-- duplicate of lea recipe -->
+<div id="instructions" class="paper col-11 mob-show margin-3">
+  <h5> Recipe for a Lea </h5> <br>
+  <p> 2 cups of pure energy <br>
+  250g of love <br>
+  1 large cute smile <br>
+  2 teaspoons cartwheels <br>
+  a dash of pragmatism <br> <br>
+  - mix energy and love in a large bowl until smooth <br> <br>
+  - fold in other ingredients until well combined <br> <br>
+  - take mixture and shape into a well formed woman with a sexy arse <br> <br>
+  - cook in oven, no need to take out as she will jump out when ready with a pose and tell "TADA!" <br> <br>
+  - best served with a pokemon cosplay <br> <br>
+</p>
+</div>​
+
+</section>
+
+<!-- instagram widget here -->
+<section class="bgColored rounded"
+<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/0c56a95b95b15ea6b88466470bf092c4.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+</section>
+
+<!-- Hide Timeline and Map till Jan
+<!-- timeline of events and map here --
+<section class="grid">
+  <div class="col-6_sm-12 timeline">
+    <div class="container left">
+      <div class="content">
+        <h2><i class="far fa-heart margin-5"></i>ceremony</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2><i class="fas fa-camera margin-5"></i>photos</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2><i class="fas fa-glass-martini margin-5"></i>reception</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--map--
+  <div class="col-6_sm-12">
+    <!--<h1> Venue Location </h1 --
+    <div class="padded-5 polaroid">
+      <a href="https://goo.gl/maps/Aahqxgbi8L12">
+      <img src="/Images/weddingmap.png">
+      </a>
+      <h4> The Venue - Horizons</h4>
+      <p> 1R Bernie Kelly Drive, Arthur Bryne Reserve, South Maroubra NSW </p>
+    </div>
+  </div>
+</section>     -->
+
+
+
+
+    <!-- Section 8 Footer RSVP form -->
+    <!-- Hide RSVP toll Jan --
+    <section id="RSVP" class="grid-center padded-5">
+
+      <h1 class="col-12 grid-center"> RSVP </h1>
+      <form class="grid-center col-11" method="POST" action="http://formspree.io/lancejscarrott@gmail.com">
+<div class="form-style">
+<label for="Name">
+<span>Name of Guests</span><input type="text" name="Name" required="true" />
+</label>
+<label for="email">
+<span>Email Address</span><input type="email" name="Email" required="true" />
+</label>
+<label for="Phone">
+<span>Phone Number</span><input type="text" name="Phone Number" required="true" />
+</label>
+
+<label for="Attendance">
+<span>Will you be Attending?</span>
+<div class="mob-show">
+  <br> <br> <br>
+</div>
+<input type="radio" name="Attendance" value="Attending" checked/> accepts with pleasure <br>
+<input type="radio" name="Attendance" value="notAttending"/> regretfully declines <br>
+</label>
+
+<label for="Diet">
+<span>Dietary Requirements</span><textarea name="Dietary Requirements" onkeyup="adjust_textarea(this)" ></textarea>
+</label>
+<label>
+<input type="submit" value="Send RSVP" />
+</label>
+</div>
+
+</form>    -->
+
+      <a class="top-button" href="#home"> <i class="fa fa-angle-double-up" aria-hidden="true"> </i> </a>
+
+  </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/smoothscroll.js" type="text/javascript"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
+  </body>
+
+  </html>

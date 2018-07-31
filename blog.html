@@ -1,0 +1,28 @@
+---
+layout: default
+title: My Blog
+---
+
+<section>
+<h1> Recent Posts </h1>
+
+<div>
+
+{% for post in site.posts %}
+
+<div class="blogPosts grid">
+  <div class="col-2">
+  <img src="{{post.featured-image}}" />
+</div>
+<div class="col-12">
+  <h3> {{post.title}} </h3>
+  <p> {{post.content}} </p>
+  <p> {{post.date | date_to_long_string}} </p>
+  <p> {{post.author}} </p>
+</div>
+
+{% endfor %}
+
+</div>
+
+</section>
