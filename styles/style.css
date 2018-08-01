@@ -74,47 +74,7 @@ section {
   background-color: #FAFAFA;
 }
 
-h1 {
-font-family: 'Black And White Picture', sans-serif;
-font-size: 2em;
-text-align: center;
-font-weight: lighter;
-}
 
-.smallHeading h1{
-  font-family: 'Black And White Picture', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  font-weight: lighter;
-}
-
-h2 {font-family: 'Josefin Slab', sans-serif;
-  font-size: 1em;
-  margin: 1%;
-  text-align: center;
-  padding: 1%;
-}
-
-h3 {font-family: 'Gloria Hallelujah', cursive;
-  font-size: 1em;
-  text-align: center;
-}
-
-h4 {font-family: 'Gloria Hallelujah', cursive;
-  font-size: 1em;
-  text-align: center;
-}
-
-h5 {font-family: 'Indie Flower', cursive;
-  font-size: 14px;
-  }
-
-p {font-family: 'Indie Flower', cursive;
-  font-size: 13.6px;
-  font-weight: lighter;}
-
-.boldText p{font-family: 'Indie Flower', cursive;
-  font-size: 13.6px;}
 
 
 /*-------------hearder section styles----------*/
@@ -520,18 +480,104 @@ a.top-button:hover{
   .mob-show{
     display:none;
   }
-  body{
-    font-size: 20px;
+
+  h1 {
+  font-family: 'Black And White Picture', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  font-weight: lighter;
   }
+
+  .smallHeading h1{
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  h2 {font-family: 'Josefin Slab', sans-serif;
+    font-size: 1em;
+    margin: 1%;
+    text-align: center;
+    padding: 1%;
+  }
+
+  h3 {font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  h4 {font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h5 {font-family: 'Indie Flower', cursive;
+    font-size: 14px;
+    }
+
+  p {font-family: 'Indie Flower', cursive;
+    font-size: 13.6px;
+    font-weight: lighter;}
+
+  .boldText p{font-family: 'Indie Flower', cursive;
+    font-size: 13.6px;}
+
+  .intro p {font-family: 'Indie Flower', cursive;
+    font-size: 17px;
+    font-weight: lighter;}
 }
 
 @media all and (max-width: 959px) and (min-width:600px){
   .mob-show{
     display:none;
   }
-  body{
-    font-size: 16px;
+
+  h1 {
+  font-family: 'Black And White Picture', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  font-weight: lighter;
   }
+
+  .smallHeading h1{
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  h2 {font-family: 'Josefin Slab', sans-serif;
+    font-size: 1em;
+    margin: 1%;
+    text-align: center;
+    padding: 1%;
+  }
+
+  h3 {font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  h4 {font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  h5 {font-family: 'Indie Flower', cursive;
+    font-size: 14px;
+    }
+
+  p {font-family: 'Indie Flower', cursive;
+    font-size: 13.6px;
+    font-weight: lighter;}
+
+  .boldText p{font-family: 'Indie Flower', cursive;
+    font-size: 13.6px;}
+
+  .intro p {font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    font-weight: lighter;}
 }
   @media all and (max-width: 599px){
     .mob-show{
@@ -540,14 +586,50 @@ a.top-button:hover{
     .mob-hide{
       display:none;
     }
-    body{
-      font-size: 16px;
-    }
+      h1 {
+      font-family: 'Black And White Picture', sans-serif;
+      font-size: 15px;
+      text-align: center;
+      font-weight: lighter;
+      }
 
-    h1 {
-    font-family: 'Black And White Picture', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    }
+      .smallHeading h1{
+        font-family: 'Black And White Picture', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        font-weight: lighter;
+      }
+
+      h2 {font-family: 'Josefin Slab', sans-serif;
+        font-size: 1em;
+        margin: 1%;
+        text-align: center;
+        padding: 1%;
+      }
+
+      h3 {font-family: 'Gloria Hallelujah', cursive;
+        font-size: 1em;
+        text-align: center;
+      }
+
+      h4 {font-family: 'Gloria Hallelujah', cursive;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      h5 {font-family: 'Indie Flower', cursive;
+        font-size: 14px;
+        }
+
+      p {font-family: 'Indie Flower', cursive;
+        font-size: 13.6px;
+        font-weight: lighter;}
+
+      .boldText p{font-family: 'Indie Flower', cursive;
+        font-size: 13.6px;}
+
+      .intro p {font-family: 'Indie Flower', cursive;
+        font-size: 13.6px;
+        font-weight: lighter;}
+
   }
