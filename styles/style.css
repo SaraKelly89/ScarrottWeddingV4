@@ -665,6 +665,7 @@ a.top-button:hover{
  
   width: 100%;
   background-repeat: no-repeat;
+  background-size:cover;
   }
       h1 {
       font-family: 'Black And White Picture', sans-serif;
