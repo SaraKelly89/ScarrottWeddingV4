@@ -665,6 +665,7 @@ a.top-button:hover{
   background-position: absolute;
   top: 0px;
   height:100%;
+  width: auto;
   background-repeat: no-repeat;
   }
       h1 {
