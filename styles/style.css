@@ -659,13 +659,12 @@ a.top-button:hover{
   /*background image*/
   background-image: url('/Images/beach4.jpg');
   /*height*/
-  min-height: auto;
-  min-width: auto;
 
   /*parallax scrolling effect*/
   background-attachment: fixed;
   background-position: absolute;
   top: 0px;
+  height:100%;
   background-repeat: no-repeat;
   }
       h1 {
