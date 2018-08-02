@@ -663,7 +663,7 @@ a.top-button:hover{
 
   /*parallax scrolling effect*/
   background-attachment: fixed;
-  background-position: fixed;
+  background-position: local;
   background-repeat: no-repeat;
   }
       h1 {
