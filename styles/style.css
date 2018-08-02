@@ -661,7 +661,7 @@ a.top-button:hover{
   /*height*/
 
   /*parallax scrolling effect*/
-  background-attachment: fixed;
+ 
   background-position: absolute;
   top: 0px;
   height:100%;
