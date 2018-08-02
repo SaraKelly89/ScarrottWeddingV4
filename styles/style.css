@@ -657,6 +657,7 @@ a.top-button:hover{
       .parallax{
   /*background image*/
   background: url('/Images/beach3.jpg') no-repeat fixed;
+  background-size: contain;
   }
       h1 {
       font-family: 'Black And White Picture', sans-serif;
