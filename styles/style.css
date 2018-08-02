@@ -662,10 +662,9 @@ a.top-button:hover{
 
   /*parallax scrolling effect*/
  
-  background-position: absolute;
-  top: 0px;
-  height:3124px;
-  width: 554;
+  position: absolute;
+ 
+  width: 100%;
   background-repeat: no-repeat;
   }
       h1 {
