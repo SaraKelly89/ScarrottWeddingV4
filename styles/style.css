@@ -522,7 +522,7 @@ a.top-button:hover{
   }
     .parallax{
   /*background image*/
-  background-image: url('/Images/beach3.jpg');
+  background-image: url('/Images/beach4.jpg');
   /*height*/
   min-height: auto;
   min-width: auto;
@@ -588,7 +588,7 @@ a.top-button:hover{
   }
     .parallax{
   /*background image*/
-  background-image: url('/Images/beach3.jpg');
+  background-image: url('/Images/beach4.jpg');
   /*height*/
   min-height: auto;
   min-width: auto;
@@ -654,12 +654,18 @@ a.top-button:hover{
     .mob-hide{
       display:none;
     }
-      .parallax{
+    .parallax{
   /*background image*/
-  background: url('/Images/beach3.jpg') no-repeat scroll;
-  
+  background-image: url('/Images/beach4.jpg');
+  /*height*/
   min-height: auto;
   min-width: auto;
+
+  /*parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
   }
       h1 {
       font-family: 'Black And White Picture', sans-serif;
