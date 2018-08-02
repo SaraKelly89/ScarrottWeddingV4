@@ -658,7 +658,7 @@ a.top-button:hover{
   /*background image*/
   background-image: url('/Images/beach3.jpg');
   /*height*/
-  min-height: ;
+  min-height: auto;
   min-width: auto;
 
   /*parallax scrolling effect*/
