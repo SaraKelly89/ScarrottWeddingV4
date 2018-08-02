@@ -661,11 +661,10 @@ a.top-button:hover{
   /*height*/
 
   /*parallax scrolling effect*/
-  background-position: fixed;
- 
-  width: 100%;
+  background-position: absolute;
+  height:100vh;
   background-repeat: no-repeat;
-  background-size:cover;
+  Overflow:scroll;
   }
       h1 {
       font-family: 'Black And White Picture', sans-serif;
