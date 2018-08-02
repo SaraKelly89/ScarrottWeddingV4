@@ -658,7 +658,8 @@ a.top-button:hover{
   /*background image*/
   background: url('/Images/beach3.jpg') no-repeat fixed;
   
-  min-height: 100%;
+  min-height: auto;
+  min-width: auto;
   }
       h1 {
       font-family: 'Black And White Picture', sans-serif;
