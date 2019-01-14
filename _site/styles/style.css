@@ -25,8 +25,9 @@ overflow-x: hidden;
 }
 
 section {
-  padding: 2%;
+  padding: 40px;
 }
+
 .padded-2 {
   padding: 2%;
 }
@@ -520,6 +521,19 @@ a.top-button:hover{
   .mob-show{
     display:none;
   }
+    .parallax{
+  /*background image*/
+  background-image: url('/Images/beach3.jpg');
+  /*height*/
+  min-height: auto;
+  min-width: auto;
+
+  /*parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  }
 
   h1 {
   font-family: 'Black And White Picture', sans-serif;
@@ -572,6 +586,19 @@ a.top-button:hover{
 @media all and (max-width: 959px) and (min-width:600px){
   .mob-show{
     display:none;
+  }
+    .parallax{
+  /*background image*/
+  background-image: url('/Images/beach3.jpg');
+  /*height*/
+  min-height: auto;
+  min-width: auto;
+
+  /*parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
   }
 
   h1 {
@@ -628,6 +655,17 @@ a.top-button:hover{
     .mob-hide{
       display:none;
     }
+    .parallax{
+  /*background image*/
+  background-image: url('/Images/beach3.jpg');
+  /*height*/
+
+  /*parallax scrolling effect*/
+  background-position: absolute;
+  height:100vh;
+  background-repeat: no-repeat;
+  Overflow:scroll;
+  }
       h1 {
       font-family: 'Black And White Picture', sans-serif;
       font-size: 25px;

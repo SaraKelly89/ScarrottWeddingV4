@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/styles/style.css">
   <script src="https://use.fontawesome.com/d185550c4b.js"> </script>
 
-  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
   <script>
 //auto expand textarea
@@ -23,29 +23,14 @@ function adjust_textarea(h) {
 }
 </script>
 
-  <style>
-  .parallax{
-  /*background image*/
-  background-image: url('/Images/beach3.jpg');
-  /*height*/
-  min-height: auto;
-  min-width: auto;
-
-  /*parallax scrolling effect*/
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  }
-  </style>
-
 </head>
 
 <body>
 
+
   <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("Mar 9, 2019 00:00:00").getTime();
+  var countDownDate = new Date("Mar 9, 2019 16:10:00").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function() {
@@ -87,7 +72,8 @@ function adjust_textarea(h) {
           <a href="index.html#RSVP"> RSVP </a>
       </div>   -->
       <div class="NavRight col-11_xs-col-5 smallHeading ">
-        <h1> -March 9th 2019- </h1>
+        <h1> Wedding: March 9th 2019 </h1>
+        <h1> RSVP: February 8th 2019</h1>
       </div>
     </nav>
   </div>
@@ -135,11 +121,11 @@ function adjust_textarea(h) {
 
 
     <!-- Section 8 Footer RSVP form -->
-    <!-- Hide RSVP toll Jan --
+
     <section id="RSVP" class="grid-center padded-5">
 
       <h1 class="col-12 grid-center"> RSVP </h1>
-      <form class="grid-center col-11" method="POST" action="http://formspree.io/lancejscarrott@gmail.com">
+      <form class="grid-center col-11" method="POST" action="https://formspree.io/lancejscarrott@gmail.com">
 <div class="form-style">
 <label for="Name">
 <span>Name of Guests</span><input type="text" name="Name" required="true" />
@@ -165,17 +151,19 @@ function adjust_textarea(h) {
 </label>
 <label>
 <input type="submit" value="Send RSVP" />
+<input type="text" name="_gotcha" style="display:none" />
 </label>
 </div>
 
-</form>    -->
+</form>
 
       <a class="top-button" href="#home"> <i class="fa fa-angle-double-up" aria-hidden="true"> </i> </a>
+  </section>
+
     <div class="bgColored padded-2">
       <p>Website designed and built by Sara Kelly </p>
     </div>
 
-  </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/js/smoothscroll.js" type="text/javascript"></script>
     <script src="/js/owl.carousel.min.js"></script>
